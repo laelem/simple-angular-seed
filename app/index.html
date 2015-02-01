@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <base href="/">
+        <title>My project</title>
+        <!-- build:css app/built/app.min.css -->
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="modules/myModule/css/main.css">
+        <!-- endbuild -->
+    </head>
+
+    <body>
+        <div class="container">
+            <div ui-view></div>
+        </div>
+    </body>
+
+    <!-- build:js app/built/app.min.js -->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+
+    <script src="modules/myModule/myModuleModule.js"></script>
+    <script src="modules/myModule/js/controllers.js"></script>
+    <script src="modules/myModule/js/filters.js"></script>
+    <script src="modules/myModule/js/directives.js"></script>
+    <script src="modules/myModule/js/services.js"></script>
+    <!-- endbuild -->
+</html>
