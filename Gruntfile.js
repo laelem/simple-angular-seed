@@ -14,12 +14,13 @@ module.exports = function (grunt) {
                     '!app/js/**',
                     '!app/stylus/**',
                     '!app/css/**',
+                    '!app/lang/*.yml',
                     '!app/node_modules/**',
                     '!app/package.json',
                     '!app/modules/**/js/**',
                     '!app/modules/**/stylus/**',
                     '!app/modules/**/css/**',
-                    '!app/modules/**/jade/**',
+                    '!app/modules/**/lang/*.yml',
                     '!app/modules/**/*.js'
                 ],
                 dest: 'dist/'
